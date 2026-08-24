@@ -4,6 +4,3 @@ from django.http import HttpResponse
 def v1_inicio(request):
     return HttpResponse("<h1>Vista 1 inicio</h1>")
 
-def v2_inicio(request):
-    return HttpResponse("<h1>Vista 2 inicio</h1>"
-    "<p>Todo lo que necestias</p>")
